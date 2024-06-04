@@ -2,7 +2,7 @@
 //
 
 /*
-	G = Green: Verde
+    G = Green: Verde
     R = Red: Vermelho
     Y = Yellow: Amarelo
     B = Blue: Azul
