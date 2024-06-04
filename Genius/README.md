@@ -1,1 +1,1 @@
-# Link [Thinkecard](https://www.tinkercad.com/things/gGkHgNJjSso-lip-2trabalho2)
+# Link [Thinkercard](https://www.tinkercad.com/things/gGkHgNJjSso-lip-2trabalho2)
