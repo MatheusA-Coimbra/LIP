@@ -75,6 +75,20 @@ bool verifySequence() {
   return true;
 }
 
+void error() {
+  delay(DELAY_TIME/4);
+  for (int i = 0; i < 4; i++)
+  {
+    digitalWrite(i+6, HIGH);
+  }
+  callSound(5);
+  delay(DELAY_TIME/4);
+  for (int j = 0; j < 4; j++)
+  {
+    digitalWrite(j+6, LOW);
+  }
+}
+
 void setup()
 {
   
@@ -118,7 +132,7 @@ void loop()
   // confirmar sequencia de led's
   bool acertou = verifySequence();
   if (acertou == false) {
-    callSound(5);
+    error();
     game_run = false;
     return;
   }
